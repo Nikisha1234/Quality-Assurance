@@ -1,0 +1,21 @@
+{
+    "validUser": {
+        "userName": "nikesh@gmail.com",
+        "password": "nikeshm"
+    },
+   "contact": {
+    "firstName": "Nikisha",
+    "lastName": "Maharjan",
+    "dob": "1995-08-28",
+    "email": "nikis@gmail.com",
+    "phone": "9828361113",
+    "address": "Khusibun",
+    "city": "Kathmandu",
+    "state": "Bagmati",
+    "postal": "44600",
+    "country": "Nepal"
+},
+    "contactEdit": {
+        "firstName": "Ram"
+    }
+}
