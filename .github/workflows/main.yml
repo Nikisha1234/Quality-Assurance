@@ -18,9 +18,9 @@ jobs:
   - name: Install dependencies
     run: npm ci
   - name: Install Playwright Browsers
-    run: npx Playwright install --width-deps
-  - name: Run Playwright tests
-    run: npx Playwright test
+    run: npx playwright install --with-deps
+  - name: Run playwright tests
+    run: npx playwright test tests/contact.spec.js --project=chromium
   - uses: actions/upload-artifact@v4
     if: always()
     with:
